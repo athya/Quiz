@@ -1,0 +1,71 @@
+/*work in progress*/
+.container{
+    width: 80%;
+    margin: auto;
+  }
+  
+  .question{
+    text-align: center;
+    background-image: url('data:image/svg+xml,%3Csvg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="%239C92AC" fill-opacity="0.4" fill-rule="evenodd"%3E%3Cpath d="M0 40L40 0H20L0 20M40 40V20L20 40"/%3E%3C/g%3E%3C/svg%3E');
+    background-color: #FFB4A2;
+  }
+  
+  .question h1{
+    padding: 10px;
+    font-family: Montserrat, sans-serif;
+    color: white;
+    text-shadow: -1px 0 #2b2d30, 0 1px #2b2d30, 1px 0 #2b2d30, 0 -1px  #2b2d30;
+  }
+  
+  .question .content{
+    margin: auto;
+    width: 95%;
+    background-color: white;
+    opacity: .8;
+  }
+  
+  .question h2{
+    text-align: center;
+    font: 20px Times New Roman, Serif;
+    padding: 5px;
+    color: #2b2d30;
+  /*may change later, determine if font will be same for all text */
+  }
+  
+  .question button{
+    margin: 10px;
+    border: 2px black;
+    font: bold 16px Montserrat, sans-serif;
+    color: #b5838d;
+    background-color: white;
+  }
+  
+  .question ul{
+    text-align: left;
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  #correct{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font: 20px "Times New Roman", Serif;
+  background-image: url('data:image/svg+xml,%3Csvg width="12" height="24" viewBox="0 0 12 24" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.4"%3E%3Cpath d="M2 0h2v12H2V0zm1 20c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM9 8c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm-1 4h2v12H8V12z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+    background-color: #004D40;
+    font-family: Montserrat, sans-serif;
+    color: white;
+    text-shadow: -1px 0 #2b2d30, 0 1px #2b2d30, 1px 0 #2b2d30, 0 -1px  #2b2d30;
+  }
+  
+  #incorrect{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+   background-image: url('data:image/svg+xml,%3Csvg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M8 16c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm33.414-6l5.95-5.95L45.95.636 40 6.586 34.05.636 32.636 2.05 38.586 8l-5.95 5.95 1.414 1.414L40 9.414l5.95 5.95 1.414-1.414L41.414 8zM40 48c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zM9.414 40l5.95-5.95-1.414-1.414L8 38.586l-5.95-5.95L.636 34.05 6.586 40l-5.95 5.95 1.414 1.414L8 41.414l5.95 5.95 1.414-1.414L9.414 40z" fill="%239C92AC" fill-opacity="0.4" fill-rule="evenodd"/%3E%3C/svg%3E');
+    background-color: #C62828;
+    font-family: Montserrat, sans-serif;
+    color: white;
+    text-shadow: -1px 0 #2b2d30, 0 1px #2b2d30, 1px 0 #2b2d30, 0 -1px  #2b2d30;
+  }
